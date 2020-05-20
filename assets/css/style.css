@@ -191,7 +191,7 @@ div.main {
 
     /* Full-width containers */
     .timeline .container {
-        width: 100%;
+        width: 80%;
         padding-left: 70px;
         padding-right: 25px;
     }
