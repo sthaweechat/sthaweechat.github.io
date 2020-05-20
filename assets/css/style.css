@@ -72,7 +72,7 @@ div.main {
     background-color: #f1f1f1;
     margin-left: 170px;
     padding: 1px 16px;
-    /*height: 1000px;*/
+    min-height: 1000px;
     color: gray;
 }
 
@@ -174,12 +174,15 @@ div.main {
 
 @media screen and (max-width: 700px) {
     .sidebar {
-        width: 100%;
+        width: 80%;
         height: auto;
         position: relative;
     }
     .sidebar a {float: left;}
     div.main {margin-left: 0; margin-top: 10px}
+    .content{
+        margin: 10px 30px 10px 30px;
+    }
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -191,7 +194,7 @@ div.main {
 
     /* Full-width containers */
     .timeline .container {
-        width: 100%;
+        width: 80%;
         padding-left: 70px;
         padding-right: 25px;
     }
