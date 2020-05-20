@@ -14,7 +14,7 @@ body {
     color: #818181;
     background: #f1f1f1;
     overflow-x: hidden;
-    padding-top: 16px;
+    /*padding-top: 16px;*/
 }
 
 .sidebar a {
@@ -25,13 +25,13 @@ body {
 }
 
 .sidebar a.active {
-    background-color: #4a90e2;
+    background-color: #474e5d;
     margin-left: 3px;
     color: white;
 }
 
 .sidebar a:hover:not(.active) {
-    background-color: #474e5d;
+    background-color: #4a90e2;
     margin-left: 3px;
     color: white;
 }
@@ -179,7 +179,7 @@ div.main {
         position: relative;
     }
     .sidebar a {float: left;}
-    div.main {margin-left: 0;}
+    div.main {margin-left: 0; margin-top: 10px}
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -224,4 +224,5 @@ div.main {
         text-align: center;
         float: none;
     }
+    div.main {margin-left: 0; margin-top: 10px}
 }
