@@ -22,34 +22,35 @@
       margin: 10px 20px;
     }
 
-    .aci{
-        width: 50px;height: 25px
+    .aci {
+      width: 50px;
+      height: 25px;
     }
 
     select.form-to {
       width: 160px;
     }
 
-    select.currency{
-        width: 50px;height: 30px
+    select.currency {
+      width: 50px;
+      height: 30px;
     }
-    input[type=number]::-webkit-inner-spin-button,
-    input[type=number]::-webkit-outer-spin-button {
-
-        opacity: 1;
-
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      opacity: 1;
     }
-    .foot{
-        background-color: #818181;
-    }
-    .btn{
-        margin-left: 20px;
-        width: 80px;
-        height: 35px;
-        background-color: #E78831;
-        color: #f1f1f1;
-      }
 
+    .foot {
+      background-color: #818181;
+    }
+    .btn {
+      margin-left: 20px;
+      width: 80px;
+      height: 35px;
+      background-color: #e78831;
+      color: #f1f1f1;
+    }
+    
   </style>
   <body>
     <div class="container">
@@ -75,36 +76,42 @@
         <div class="row">
           <div class="col">
             <label> Desparting</label>
-            <input name="des" type="date">
+            <input name="des" type="date" />
           </div>
           <div class="col">
             <label> Returning</label>
-            <input name="return" type="date">
+            <input name="return" type="date" />
           </div>
         </div>
         <div class="row">
-            <div class="col">
-                <label>Adult</label>
-                <input type="number" class="aci" name="adult">
-            </div>
-            <div class="col">
-                <label>Child</label>
-                <input type="number" class="aci" name="child">
-            </div>
-            <div class="col">
-                <label>Infant</label>
-                <input type="number" class="aci" name="infant">
-            </div>
-            <div class="col">
-                <label style="color: #E78831">Currency</label>
-                <select name="currency" class="currency">
-                    <option value="thb">THB</option>
-                    <option value="usd">USD</option>
-                </select>
-            </div>
+          <div class="col">
+            <label>Adult</label>
+            <input type="number" class="aci" name="adult" />
+          </div>
+          <div class="col">
+            <label>Child</label>
+            <input type="number" class="aci" name="child" />
+          </div>
+          <div class="col">
+            <label>Infant</label>
+            <input type="number" class="aci" name="infant" />
+          </div>
+          <div class="col">
+            <label style="color: #e78831;">Currency</label>
+            <select name="currency" class="currency">
+              <option value="thb">THB</option>
+              <option value="usd">USD</option>
+            </select>
+          </div>
         </div>
-        <div class="row" style="background-color: rgba(164,164,164,0.21);padding: 10px 10px">
-           <input type="submit" class="btn" value="SEARCH"/>
+        <div
+          class="row"
+          style="
+            background-color: rgba(164, 164, 164, 0.21);
+            padding: 10px 10px;
+          "
+        >
+          <input type="submit" class="btn" value="SEARCH" />
         </div>
       </form>
     </div>
